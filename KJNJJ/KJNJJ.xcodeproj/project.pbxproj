@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A015C99F39BD7CBA939278AD /* libPods-KJNJJ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BFBE9788D534E1212A4D9D /* libPods-KJNJJ.a */; };
+		DDED4EFA1DC1A9A100155418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED4EF91DC1A9A100155418 /* main.m */; };
+		DDED4EFD1DC1A9A100155418 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED4EFC1DC1A9A100155418 /* AppDelegate.m */; };
+		DDED4F051DC1A9A100155418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDED4F041DC1A9A100155418 /* Assets.xcassets */; };
+		DDED4F081DC1A9A100155418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDED4F061DC1A9A100155418 /* LaunchScreen.storyboard */; };
+		DDED4F131DC1CAA500155418 /* 向下 in Resources */ = {isa = PBXBuildFile; fileRef = DDED4F111DC1CAA500155418 /* 向下 */; };
+		DDED4F141DC1CAA500155418 /* 向右 in Resources */ = {isa = PBXBuildFile; fileRef = DDED4F121DC1CAA500155418 /* 向右 */; };
+		DDED4F1C1DC1D1E600155418 /* FlashLightController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED4F1A1DC1D1E600155418 /* FlashLightController.m */; };
+		DDED4F1D1DC1D1E600155418 /* FlashLightController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDED4F1B1DC1D1E600155418 /* FlashLightController.xib */; };
+		DDED4F261DC1DDA100155418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDED4F231DC1DDA100155418 /* Main.storyboard */; };
+		DDED4F271DC1DDA100155418 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED4F251DC1DDA100155418 /* ViewController.m */; };
+		DDED4F2A1DC1E0C600155418 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDED4F291DC1E0C600155418 /* AVFoundation.framework */; };
+		DDED4F2E1DC1F9A900155418 /* TestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED4F2D1DC1F9A900155418 /* TestTools.m */; };
+		DDED4F311DC1FAF200155418 /* NetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDED4F301DC1FAF200155418 /* NetWorkController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8D3820ECCB47E7DB7A4B34D /* Pods-KJNJJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJNJJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KJNJJ/Pods-KJNJJ.debug.xcconfig"; sourceTree = "<group>"; };
+		DDED4EF51DC1A9A100155418 /* KJNJJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJNJJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDED4EF91DC1A9A100155418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDED4EFB1DC1A9A100155418 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDED4EFC1DC1A9A100155418 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDED4F041DC1A9A100155418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDED4F071DC1A9A100155418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDED4F091DC1A9A100155418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDED4F111DC1CAA500155418 /* 向下 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "向下"; sourceTree = "<group>"; };
+		DDED4F121DC1CAA500155418 /* 向右 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "向右"; sourceTree = "<group>"; };
+		DDED4F191DC1D1E600155418 /* FlashLightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashLightController.h; sourceTree = "<group>"; };
+		DDED4F1A1DC1D1E600155418 /* FlashLightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashLightController.m; sourceTree = "<group>"; };
+		DDED4F1B1DC1D1E600155418 /* FlashLightController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlashLightController.xib; sourceTree = "<group>"; };
+		DDED4F1E1DC1D23D00155418 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		DDED4F1F1DC1D25100155418 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DDED4F231DC1DDA100155418 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DDED4F241DC1DDA100155418 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDED4F251DC1DDA100155418 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDED4F291DC1E0C600155418 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDED4F2C1DC1F9A900155418 /* TestTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTools.h; sourceTree = "<group>"; };
+		DDED4F2D1DC1F9A900155418 /* TestTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTools.m; sourceTree = "<group>"; };
+		DDED4F2F1DC1FAF200155418 /* NetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkController.h; sourceTree = "<group>"; };
+		DDED4F301DC1FAF200155418 /* NetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkController.m; sourceTree = "<group>"; };
+		F4BFBE9788D534E1212A4D9D /* libPods-KJNJJ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KJNJJ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD27A87D13D74656CAFDADB /* Pods-KJNJJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJNJJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-KJNJJ/Pods-KJNJJ.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDED4EF21DC1A9A100155418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED4F2A1DC1E0C600155418 /* AVFoundation.framework in Frameworks */,
+				A015C99F39BD7CBA939278AD /* libPods-KJNJJ.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A9DDC7C5C2D2D65682AA20C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8D3820ECCB47E7DB7A4B34D /* Pods-KJNJJ.debug.xcconfig */,
+				FAD27A87D13D74656CAFDADB /* Pods-KJNJJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DDED4EEC1DC1A9A100155418 = {
+			isa = PBXGroup;
+			children = (
+				DDED4EF71DC1A9A100155418 /* KJNJJ */,
+				DDED4EF61DC1A9A100155418 /* Products */,
+				DDED4F281DC1E0C600155418 /* Frameworks */,
+				4A9DDC7C5C2D2D65682AA20C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DDED4EF61DC1A9A100155418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4EF51DC1A9A100155418 /* KJNJJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDED4EF71DC1A9A100155418 /* KJNJJ */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4EFB1DC1A9A100155418 /* AppDelegate.h */,
+				DDED4EFC1DC1A9A100155418 /* AppDelegate.m */,
+				DDED4F241DC1DDA100155418 /* ViewController.h */,
+				DDED4F251DC1DDA100155418 /* ViewController.m */,
+				DDED4F231DC1DDA100155418 /* Main.storyboard */,
+				DDED4F1E1DC1D23D00155418 /* Common.h */,
+				DDED4F1F1DC1D25100155418 /* PrefixHeader.pch */,
+				DDED4F151DC1D17800155418 /* Functions */,
+				DDED4F0F1DC1CAA500155418 /* images */,
+				DDED4F041DC1A9A100155418 /* Assets.xcassets */,
+				DDED4F061DC1A9A100155418 /* LaunchScreen.storyboard */,
+				DDED4F091DC1A9A100155418 /* Info.plist */,
+				DDED4EF81DC1A9A100155418 /* Supporting Files */,
+			);
+			path = KJNJJ;
+			sourceTree = "<group>";
+		};
+		DDED4EF81DC1A9A100155418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4EF91DC1A9A100155418 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDED4F0F1DC1CAA500155418 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4F101DC1CAA500155418 /* 功能列表 */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		DDED4F101DC1CAA500155418 /* 功能列表 */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4F111DC1CAA500155418 /* 向下 */,
+				DDED4F121DC1CAA500155418 /* 向右 */,
+			);
+			path = "功能列表";
+			sourceTree = "<group>";
+		};
+		DDED4F151DC1D17800155418 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4F161DC1D17800155418 /* GeneralDirection */,
+				DDED4F171DC1D17800155418 /* SimpleFunction */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		DDED4F161DC1D17800155418 /* GeneralDirection */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4F2B1DC1F97800155418 /* AFN3.0集成 */,
+			);
+			path = GeneralDirection;
+			sourceTree = "<group>";
+		};
+		DDED4F171DC1D17800155418 /* SimpleFunction */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4F181DC1D1B800155418 /* FlashLight */,
+			);
+			path = SimpleFunction;
+			sourceTree = "<group>";
+		};
+		DDED4F181DC1D1B800155418 /* FlashLight */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4F191DC1D1E600155418 /* FlashLightController.h */,
+				DDED4F1A1DC1D1E600155418 /* FlashLightController.m */,
+				DDED4F1B1DC1D1E600155418 /* FlashLightController.xib */,
+			);
+			path = FlashLight;
+			sourceTree = "<group>";
+		};
+		DDED4F281DC1E0C600155418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4F291DC1E0C600155418 /* AVFoundation.framework */,
+				F4BFBE9788D534E1212A4D9D /* libPods-KJNJJ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDED4F2B1DC1F97800155418 /* AFN3.0集成 */ = {
+			isa = PBXGroup;
+			children = (
+				DDED4F2C1DC1F9A900155418 /* TestTools.h */,
+				DDED4F2D1DC1F9A900155418 /* TestTools.m */,
+				DDED4F2F1DC1FAF200155418 /* NetWorkController.h */,
+				DDED4F301DC1FAF200155418 /* NetWorkController.m */,
+			);
+			path = "AFN3.0集成";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDED4EF41DC1A9A100155418 /* KJNJJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDED4F0C1DC1A9A100155418 /* Build configuration list for PBXNativeTarget "KJNJJ" */;
+			buildPhases = (
+				35F7EB4D7D9F1F94DAD7D628 /* [CP] Check Pods Manifest.lock */,
+				DDED4EF11DC1A9A100155418 /* Sources */,
+				DDED4EF21DC1A9A100155418 /* Frameworks */,
+				DDED4EF31DC1A9A100155418 /* Resources */,
+				C3FE6C74608002CC7F4DDB00 /* [CP] Embed Pods Frameworks */,
+				92B2ED07D249C0F7CF0ED2D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJNJJ;
+			productName = KJNJJ;
+			productReference = DDED4EF51DC1A9A100155418 /* KJNJJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDED4EED1DC1A9A100155418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = nevermore;
+				TargetAttributes = {
+					DDED4EF41DC1A9A100155418 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 84W6EV66WN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDED4EF01DC1A9A100155418 /* Build configuration list for PBXProject "KJNJJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDED4EEC1DC1A9A100155418;
+			productRefGroup = DDED4EF61DC1A9A100155418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDED4EF41DC1A9A100155418 /* KJNJJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDED4EF31DC1A9A100155418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED4F141DC1CAA500155418 /* 向右 in Resources */,
+				DDED4F1D1DC1D1E600155418 /* FlashLightController.xib in Resources */,
+				DDED4F081DC1A9A100155418 /* LaunchScreen.storyboard in Resources */,
+				DDED4F261DC1DDA100155418 /* Main.storyboard in Resources */,
+				DDED4F051DC1A9A100155418 /* Assets.xcassets in Resources */,
+				DDED4F131DC1CAA500155418 /* 向下 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F7EB4D7D9F1F94DAD7D628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92B2ED07D249C0F7CF0ED2D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KJNJJ/Pods-KJNJJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3FE6C74608002CC7F4DDB00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KJNJJ/Pods-KJNJJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDED4EF11DC1A9A100155418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED4EFD1DC1A9A100155418 /* AppDelegate.m in Sources */,
+				DDED4EFA1DC1A9A100155418 /* main.m in Sources */,
+				DDED4F311DC1FAF200155418 /* NetWorkController.m in Sources */,
+				DDED4F2E1DC1F9A900155418 /* TestTools.m in Sources */,
+				DDED4F1C1DC1D1E600155418 /* FlashLightController.m in Sources */,
+				DDED4F271DC1DDA100155418 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDED4F061DC1A9A100155418 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDED4F071DC1A9A100155418 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDED4F0A1DC1A9A100155418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDED4F0B1DC1A9A100155418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDED4F0D1DC1A9A100155418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D3820ECCB47E7DB7A4B34D /* Pods-KJNJJ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84W6EV66WN;
+				GCC_PREFIX_HEADER = KJNJJ/PrefixHeader.pch;
+				INFOPLIST_FILE = KJNJJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justForFun.KJNJJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDED4F0E1DC1A9A100155418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD27A87D13D74656CAFDADB /* Pods-KJNJJ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84W6EV66WN;
+				GCC_PREFIX_HEADER = KJNJJ/PrefixHeader.pch;
+				INFOPLIST_FILE = KJNJJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justForFun.KJNJJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDED4EF01DC1A9A100155418 /* Build configuration list for PBXProject "KJNJJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED4F0A1DC1A9A100155418 /* Debug */,
+				DDED4F0B1DC1A9A100155418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDED4F0C1DC1A9A100155418 /* Build configuration list for PBXNativeTarget "KJNJJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED4F0D1DC1A9A100155418 /* Debug */,
+				DDED4F0E1DC1A9A100155418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDED4EED1DC1A9A100155418 /* Project object */;
+}

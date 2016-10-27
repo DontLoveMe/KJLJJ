@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  KJNJJ
+//
+//  Created by coco船长 on 2016/10/27.
+//  Copyright © 2016年 nevermore. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//将类的引用集中
+#ifdef __OBJC__
+#import "Common.h"
+#import <AVFoundation/AVFoundation.h>
+#import <AFNetworking.h>
+#import <JSONKit.h>
+
+
+//手电筒
+#import "FlashLightController.h"
+
+//网络请求
+#import "NetWorkController.h"
+
+
+#endif
+
+//取得屏幕的宽、高
+#define KScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+//导航栏和标签栏的高度
+#define kNavigationBarHeight 64
+#define kTabBarHeight 49
+
+#endif /* PrefixHeader_pch */
